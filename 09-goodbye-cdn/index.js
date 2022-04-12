@@ -1,6 +1,3 @@
-import React from "react";
-import { ReactDOM } from "react-dom";
-
 var navbar = React.createElement(
   "nav",
   null,
