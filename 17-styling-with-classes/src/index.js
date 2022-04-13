@@ -1,3 +1,7 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./styles.css";
+
 function Header() {
   return (
     <header>
@@ -5,6 +9,7 @@ function Header() {
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
           className="nav-logo"
+          alt="react-logo"
         />
         <ul className="nav-items">
           <li>Pricing</li>
@@ -48,4 +53,10 @@ function Page() {
   );
 }
 
-ReactDOM.render(<Page />, document.getElementById("root"));
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+root.render(
+  <React.StrictMode>
+    <Page />
+  </React.StrictMode>
+);
