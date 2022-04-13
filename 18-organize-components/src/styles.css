@@ -45,7 +45,7 @@ body {
   padding: 5px 0;
 }
 
-footer {
+.footer {
   position: absolute;
   background-color: #555b6e;
   color: #faf9f9;

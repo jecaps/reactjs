@@ -5,7 +5,7 @@ import MainContent from "./MainContent";
 import Footer from "./Footer";
 import "./styles.css";
 
-function Page() {
+function App() {
   return (
     <div>
       <Header />
@@ -19,6 +19,6 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <React.StrictMode>
-    <Page />
+    <App />
   </React.StrictMode>
 );

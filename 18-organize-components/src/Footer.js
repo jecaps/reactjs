@@ -1,8 +1,6 @@
-import "./styles.css";
-
 export default function Footer() {
   return (
-    <footer>
+    <footer className="footer">
       <small>© 2022 Kanz development. All rights reserved.</small>
     </footer>
   );
