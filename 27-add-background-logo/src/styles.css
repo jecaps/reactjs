@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 700px;
+  font-family: "Inter", sans-serif;
+  background-color: #282d35;
+}
+
+nav {
+  background-color: #21222a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 40px;
+}
+
+.nav--logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav--icon {
+  width: 60px;
+}
+
+.nav--logo_name {
+  color: #61dafb;
+  padding-left: 10px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.nav--title {
+  color: #deebf8;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* 
+Challenge: Place the gray react logo in the background
+
+Don't use an `img` element, but rather set it as the
+`background-image` of the `main` element.
+
+Hint: you'll need to use the following properties:
+- background-image
+- background-repeat
+- background-position
+
+(Or the shorthand `background` property with values for all
+those other properties)
+*/
+
+main {
+  padding: 40px;
+  font-size: 1.5rem;
+  color: #fff;
+  background-image: url(./images/react-logo.webp);
+  background-repeat: no-repeat;
+  background-position: 100% 80%;
+  background-size: 40vh;
+}
+
+.main--title {
+  font-size: 2.5rem;
+}
+
+.main--list_items {
+  padding-left: 5rem;
+}
+
+.main--list_items li {
+  font-size: 1.5rem;
+  padding: 0.5rem 0;
+}
+
+.main--list_items li::marker {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #61dafb;
+}
