@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #23252c;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+}
+
+.card {
+  width: 25rem;
+  background-color: #1a1b21;
+  margin: 3rem auto;
+}
+
+.card-info {
+  text-align: center;
+}
+
+.card--job-title {
+  color: #f3bf99;
+}
+
+button {
+  width: 80%;
+}
+
+button > svg {
+  padding-right: 3px;
+}
