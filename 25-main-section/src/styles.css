@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 700px;
+  font-family: "Inter", sans-serif;
+  background-color: #282d35;
+}
+
+nav {
+  background-color: #21222a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 40px;
+}
+
+.nav--logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav--icon {
+  width: 60px;
+}
+
+.nav--logo_name {
+  color: #61dafb;
+  padding-left: 10px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.nav--title {
+  color: #deebf8;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+main {
+  padding: 40px;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.main--title {
+  font-size: 2.5rem;
+}
+
+.main--list_items {
+  padding-left: 5rem;
+}
+
+.main--list_items li {
+  font-size: 1.5rem;
+  padding: 0.5rem 0;
+}
+
+.main--list_items li::marker {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #61dafb;
+}
