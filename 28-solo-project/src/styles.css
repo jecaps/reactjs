@@ -58,3 +58,26 @@ button > svg {
   font-size: 0.95rem;
   color: #dcdcdc;
 }
+
+footer {
+  background-color: #161619;
+  height: 4rem;
+  margin: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer li {
+  /* background-color: #918e9b; */
+  padding: 2px;
+  margin: 0 10px;
+  border-radius: 2px;
+}
